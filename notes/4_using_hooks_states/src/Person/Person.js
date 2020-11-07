@@ -1,15 +1,14 @@
 import React from "react";
-import "./Person.css"; //add css
 
 const person = (props) => {
+  //stateless/ dumb components/presentational components: use this a lot
   //we are using function to create component not class
   return (
-    <div className="Person">
-      <p onClick={props.click}>
+    <div>
+      <p>
         I'm {props.name} and I am {props.age} years old!
       </p>
       <p>{props.children}</p>
-      <input type="text" onChange={props.changed} value={props.name} />
     </div>
     //we use {} to use js in jsx
     //props are used to add properies when the function is called
