@@ -54,10 +54,22 @@ class App extends Component {
       //keep it before return then put in variable when the showpersons is true
       persons = (
         <div>
-          {this.state.persons.map((person) => {
-            //applies a function to all the objects
-            return <Person name={person.name} age={person.age} />;
-          })}
+          <Person
+            name={this.state.persons[0].name}
+            age={this.state.persons[0].age}
+          />
+          <Person
+            name={this.state.persons[1].name}
+            age={this.state.persons[1].age}
+            click={() => this.switchNameHandler("Hartz_I")}
+            changed={this.nameChangeHandler}
+          >
+            My Hobbies: Racing
+          </Person>
+          <Person
+            name={this.state.persons[2].name}
+            age={this.state.persons[2].age}
+          />
         </div>
       );
     }
