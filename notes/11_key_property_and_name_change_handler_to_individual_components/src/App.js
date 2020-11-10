@@ -41,7 +41,6 @@ class App extends Component {
     });
 
     //this whole thing can be done using the input as an argument then we wont need the findIndex method
-    //do it thy self. should be easy
   };
 
   togglePersonsHandler = () => {
