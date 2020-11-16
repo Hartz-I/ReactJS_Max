@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  /* display: flex;
+  flex-direction: column-reverse;
+  justify-content: center; /flex-start(default)/flex-end/spaca-around/space-between
+  align-items: center;/flex-start/flex-end/flex-stretch(default) */
+}
+
+.red {
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+}

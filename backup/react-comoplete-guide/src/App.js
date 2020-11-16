@@ -83,6 +83,7 @@ class App extends Component {
     }
 
     return (
+      //styleroot is a must have for the external component
       <div className="App">
         <h1>This is a React App!</h1>
         <p className={classes.join(" ")}>This is working!</p>
