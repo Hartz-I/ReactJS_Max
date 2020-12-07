@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import Person from "./Person/Person";
+import Person from "./Persons/Person/Person";
 import Radium from "radium";
 
 class App extends Component {
